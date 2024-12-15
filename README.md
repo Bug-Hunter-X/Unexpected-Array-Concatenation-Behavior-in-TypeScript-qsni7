@@ -1,0 +1,2 @@
+# Unexpected Array Concatenation Behavior in TypeScript
+This example demonstrates a potential issue with TypeScript's type inference when concatenating arrays.  The `combine` function correctly concatenates two number arrays, but without explicitly specifying the return type, there might be scenarios where type inference could lead to unexpected results, particularly in more complex scenarios involving generics or conditional types. The solution provides explicit typing to avoid such issues.
